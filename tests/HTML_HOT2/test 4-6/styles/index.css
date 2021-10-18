@@ -1,0 +1,99 @@
+
+
+header{
+        background-image: linear-gradient(to right, #00f , yellow);
+        color: #000;
+        height: 5rem;
+        text-align: center;    
+}
+
+main{
+    text-shadow: rgb(156, 48, 48);
+}
+.main-team{ 
+    background-color: lightgray;
+    background-image: url(/images/get-it-done.jpg);
+    background-repeat: no-repeat;
+    background-attachment:initial;
+    background-size: cover;
+}
+.top-body{
+    background-color: lightgray;
+    background-image: url(/images/get-it-done.jpg);
+    background-repeat: no-repeat;
+    background-attachment:initial;
+    background-size: cover;
+    text-align: center;
+    height: 500px;
+}
+body main section p{
+   text-align: center;
+
+}
+
+#navbar ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    border: solid black;
+    
+}
+#navbar ul li{
+        display: inline;
+        text-decoration: none;
+}
+#navbar ul li a{
+    color: white;
+}
+#navbar ul li a:hover{
+    color: red;
+}
+#navbar ul li a:active{
+    color: black;
+}
+.home:hover{
+    color: violet;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    color: #333;
+    font-weight: bold;
+    max-width: 31%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-shadow: lightseagreen;
+}
+/*product page*/
+.product{
+    padding:  20px;
+    width: 310px;
+    height: 360px;
+    display: block;
+    text-shadow: lightseagreen;
+    align-content:center;
+    float: left;
+    border: solid 2px;
+    text-align: center;
+    margin: 30px;
+}
+.product img{
+    width: 300px;
+    height: 200px;
+}
+/*product page*/
+
+footer{
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+}
+hr{
+    background-color: black;
+}

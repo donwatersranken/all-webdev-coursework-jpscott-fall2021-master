@@ -1,0 +1,73 @@
+test 2
+
+Q 1.)a valid html document requires
+
+Answer=(c)a head element and an html element within a doctype declaration. 
+
+Q 2.)which of the following is an ending tag for an h1 element
+
+Answer=(a) </h1> 
+
+Q 3.)what kind of tag is this?
+<img src="logo.gif" alt="murach logo">
+
+Answer=(d) an empty tag
+
+Q 4.)the code that follows
+<p id="copyright" class="base_color">Copyright 2018</p>
+
+Answer=(d)has two attributes in an opening tag
+
+Q 5.)in HTML, you can code a boolean attribute as
+
+Answer=(d) 
+
+Q 6.)In HTML, you must enclose an attribute value within quoutation marks
+
+Answer=(a) if the contains one or more spaces 
+
+Q 7.)when you comment out a portion of HTML code, you disable it by
+
+Answer=(a)enclosion it within these characters:<!--and--> 
+
+Q 8.)you can use line returns, tabs, and spaces to align your HTML code
+
+Answer=(d)as long as they're within tags
+
+Q 9.)within a CSS style rule, a declaration consists of 
+
+Answer=(a) a selector and a declaration block 
+
+Q 10.)three of the common CSS selectors select
+
+Answer=(a) by element type, id attribute, and class attribute
+
+Q 11.)which of the following is a CSS type selector?
+
+answer=(a) h1
+
+Q 12.)which of the following is a CSS class selector?
+
+answer=(c).first_line
+
+Q 13.) when you use a text editor to start a new HTML file from an old file, you
+
+answer=(b)
+
+Q 14.)if you're using brackets to edit and HTML file, the easiest way to test it is to
+
+answer=(a) select the HTML page in the text editor and click the live preview icon
+
+Q 15.)when you're using the live preview feature of brackets, the changes are shown in a changes are shown in the a chrome browser as soon as
+answer(b)
+
+Q 16.)after you test a page in chrome, the easiest way to test any changes that you make to 
+the HTML or CSS files for the page is to save the changes and then
+
+answer=(d) go to chrome and click the reload button
+
+Q 17.)When you use a Markup validation to validate the HTML for one web page
+answer=(b&d)a trival coding error can cause multiple validation errors
+
+Q 18.)validating an html file
+answer=(b)may help you find errors that are difficult to find any other way

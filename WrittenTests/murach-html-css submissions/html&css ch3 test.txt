@@ -1,0 +1,95 @@
+test 3
+
+Q 1.)the title element in the head section of an HTML document specifies the text
+
+answer=(c) that's displayed in the browser's tab for the page
+
+Q 2.) for SEO, the title element in the focus keywords for an HTML document
+
+answer=(a) should include one or two focus keywords for ranking the page
+
+Q 3.)a meta element in the head section of an HTML document
+
+answer=(d)
+
+Q 4.) three inline elements are
+
+answer=(b) <q>,<a>, and img
+
+Q 5.)by default, which type of element is displayed
+
+answer=(c)
+
+Q 6.) when the code that follows is loaded into the browser,
+<h2>About this book</h2>
+
+answer=(a)it displays "About this book" in the default h2 format
+
+Q 7.)by default, the  <br> tag
+
+answer=(b)starts a new line of text
+
+Q 8.)what character entity is created by the &nbsp;
+
+answer=(d) a space
+
+Q 9.)the class attribute
+
+answer=(d)
+
+Q 10.)the id attribute
+
+answer=(a)
+
+Q 11.)the portion of a web page that displays the most important content should 
+be coded as an HTML 5
+
+answer=(c)
+
+Q 12.)the div element should  only be used
+
+answer=(a)
+
+Q 13.)in stead of u
+
+answer=(a)
+
+Q 14.)
+
+answer=(b)
+
+Q 15.)
+
+answer=(a)
+
+Q 16.)
+
+answer=(c)
+
+Q 17.)
+
+answer=(b)
+
+Q 18.)
+
+answer=(b)
+
+Q 19.)
+
+answer=(d)
+
+Q 20.)
+
+answer=(b)
+
+Q 21.)
+
+answer=(b)
+
+Q 22.)
+
+answer=(c)
+
+Q 23.)
+
+answer=(b)

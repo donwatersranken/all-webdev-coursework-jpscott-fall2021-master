@@ -1,0 +1,35 @@
+* {
+	font-family: sans-serif;
+}
+/*header*/
+
+img {
+	padding: 10px 40px 0px 0px;
+	float: left;
+}
+
+h1 {
+	color: orange;
+	text-shadow: 2px 2px black;
+}
+
+h3::first-letter {
+	font-size: 200%;
+}
+/*header*/
+
+/*main*/
+body > main > ul > li > a {
+	color: yellow;
+}
+
+/*main*/
+
+/*footer*/
+
+footer {
+	font-size: 90%;
+	text-align: center;
+}
+
+/*footer*/

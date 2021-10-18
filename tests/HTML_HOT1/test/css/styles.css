@@ -1,0 +1,42 @@
+body{background-image: url("img/alfanos-pizza-logo.png");}
+header{
+    background-color: lightgrey;
+    color: black;
+}
+main{
+    color: red;
+    background-color: lightblue;
+
+}
+footer{
+    background-color:  darkred;
+    color: white;
+    text-align: center;
+    
+}
+.food-1{
+    background-color: royalblue;
+}
+.food-2{
+    background-color: yellow;
+}
+
+.food-3{
+    background-color: purple;
+}
+
+.food-4{
+    background-color: red;
+}
+
+.food-5{
+    background-color: brown;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+.map{
+    background-color: blue;
+}

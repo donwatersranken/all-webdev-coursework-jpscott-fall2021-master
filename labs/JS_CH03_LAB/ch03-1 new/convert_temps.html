@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <main>
+        <script>
+            const mintemp =-100;
+            const maxtemp =212;
+            
+            let fahrenheit;
+            let celsius;
+            
+            while (true) {
+                fahrenheit = parseFloat(prompt("please enter a temperature between -100 and 212:\r\n enter 999 to quit","100"));
+                
+                if (fahrenheit === 999) {
+                
+                 process.exit();
+                }
+
+                if ((isNaN(fahrenheit)) || (fahrenheit < mintemp) ||(fahrenheit > maxtemp)) 
+                {
+                 alert("temperature entered is not valid");  
+                }
+                else{
+               
+           celsius = ((fahrenheit - 32) * 5/9).toFixed(1);
+        
+           document.write(`${fahrenheit} F = ${celsius} C <br><br>`) ;
+           
+            }
+            }
+               
+        </script>
+    </main>
+</body>
+</html>

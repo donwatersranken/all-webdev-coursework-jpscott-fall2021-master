@@ -1,0 +1,47 @@
+Q 1.)
+
+answer=(b)
+
+Q 2.)
+
+answer=(c)
+
+Q 3.)
+
+answer=(b)
+
+Q 4.)
+
+answer=(c)
+
+Q 5.)
+
+answer=(a)
+
+Q 6.)
+
+answer=(b)
+
+Q 7.)
+
+answer=(c)
+
+Q 8.)
+
+answer=(c)
+
+Q 9.)
+
+answer=(b)
+
+Q 10.)
+
+answer=(a)
+
+Q 11.)
+
+answer=(d)
+
+Q 12.)
+
+answer=(a)

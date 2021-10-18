@@ -1,0 +1,9 @@
+every time i tried to get the base web page as a 
+seperte thing it would brake. so i just put it
+all in there and edited
+
+HTML_CH11_HW\short 11-1\town_hall\speakers\c11x_sampson.html
+and
+\HTML_CH11_HW\short 11-1\town_hall\styles\c11x_rollovers.css
+
+hope this is ok.

@@ -1,0 +1,184 @@
+/* header */
+.flex-contaner-header {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	padding: 10px;
+	width: 100%;
+}
+body > header > div.flex-contaner.flex-contaner-header > div:nth-child(2) {
+	margin: 10px;
+	font-size: 180%;
+	align-items: flex-end;
+}
+body > header > div.flex-contaner-navbar {
+	margin: ;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	border: 2px black solid;
+}
+/* header */
+body > header > div.flex-contaner-navbar > a {
+	margin-left: 25px;
+	text-decoration: none;
+}
+/* main */
+body > main > div {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	padding: 10px;
+}
+/* 1&4 */
+body > main > div > div {
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	padding: 20px;
+}
+/* 1&4 */
+body > main > div > img {
+	width: 30%;
+	border: black 2px solid;
+}
+/* 4 */
+body > main > div > div > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+/* 1&4 */
+/* main */
+footer {
+	background: black;
+}
+body > footer > div {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	text-align: center;
+}
+body > footer > div > div {
+	color: white;
+	display: flex;
+	flex-direction: row;
+	align-self: flex-end;
+}
+body > footer > div > div {
+	margin: 20px;
+}
+/* @media */
+@media only screen and (max-width: 2500px) {
+	body {
+		background-color: rgb(129, 73, 73);
+		width: 2500px;
+		border: solid 2px black;
+	}
+	header img {
+	}
+}
+@media only screen and (max-width: 1200px) {
+	body {
+		background-color: rgb(126, 94, 58);
+		width: 1200px;
+		border: solid 2px black;
+	}
+}
+@media only screen and (max-width: 900px) {
+	body {
+		background-color: rgb(133, 132, 72);
+		width: 900px;
+		border: solid 2px black;
+	}
+	body
+		> header
+		> div.flex-contaner.flex-contaner-header
+		> div:nth-child(1)
+		> img {
+		margin: 20px 20px 20px 20px;
+	}
+	body > main > div > div {
+		/* margin: ]; */
+	}
+	body > main > div > div > div > h1 {
+		padding: 20px;
+	}
+	body > main > div > div > div > a {
+		padding: 20px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	body {
+		background-color: rgb(88, 88, 153);
+		width: 575px;
+		border: solid 2px black;
+		text-align: center;
+	}
+	/* header */
+	.flex-contaner-header {
+		display: flex;
+		justify-content: flex-start;
+		flex-direction: row;
+	}
+	body > header > div.flex-contaner-navbar {
+		display: flex;
+		justify-content: space-around;
+		flex-direction: row;
+		border: 2px black solid;
+	}
+	/* header */
+	body > header > div.flex-contaner-navbar > a {
+		margin-left: 10px;
+		text-decoration: none;
+	}
+	/* main */
+	body > main > div {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 590px;
+	}
+	/* 1&4 */
+	body > main > div > div {
+		display: flex;
+		flex-direction: column;
+	}
+	/* 1&4 */
+	body > main > div > img {
+		width: 100%;
+	}
+	/* 4 */
+	body > main > div > div > div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 20px;
+	}
+	/* 1&4 */
+	/* main */
+	footer {
+		background: black;
+	}
+	body > footer > div {
+		color: white;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-end;
+		text-align: center;
+	}
+	body > footer > div > div {
+		color: white;
+		display: flex;
+		flex-direction: row;
+		align-self: flex-end;
+	}
+	body > main > div > div > div > img {
+		width: 300px;
+	}
+}

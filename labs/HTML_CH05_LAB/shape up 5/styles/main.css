@@ -1,0 +1,42 @@
+* {
+	font-family: sans-serif;
+}
+header {
+	background-image: linear-gradient(white, steelblue);
+	background-color: steelblue;
+	border: steelblue 2px solid;
+}
+img {
+	float: left;
+}
+h1 {
+	font-weight: bold;
+}
+h2 {
+	font-weight: bold;
+}
+.h3 {
+	font-weight: bold;
+	color: maroon;
+}
+.h3:hover {
+	color: steelblue;
+	text-shadow: steelblue;
+}
+.li {
+	color: steelblue;
+}
+aside {
+	font-style: italic;
+	width: 245px;
+	float: left;
+}
+.li:hover {
+	color: maroon;
+}
+footer {
+	clear: left;
+	color: white;
+	text-align: center;
+	background-color: steelblue;
+}

@@ -1,0 +1,103 @@
+Q 1.)
+
+answer=(b)
+
+Q 2.)
+
+answer=(d)
+
+Q 3.)
+
+answer=(a)
+
+Q 4.)
+
+answer=(d)
+
+Q 5.)
+
+answer=(c)
+
+Q 6.)
+
+answer=(c)
+
+Q 7.)
+
+answer=(c)
+
+Q 8.)
+
+answer=(a)
+
+Q 9.)
+
+answer=(c)
+
+Q 10.)
+
+answer=(c)
+
+Q 11.)
+
+answer=(d)
+
+Q 12.)
+
+answer=(c)
+
+Q 13.)
+
+answer=(b)
+
+Q 14.)
+
+answer=(d)
+
+Q 15.)
+
+answer=(a)
+
+Q 16.)
+
+answer=(a)
+
+Q 17.)
+
+answer=(a)
+
+Q 18.)
+
+answer=(b)
+
+Q 19.)
+
+answer=(c)
+
+Q 20.)
+
+answer=(d)
+
+Q 21.)
+
+answer=(b)
+
+Q 22.)
+
+answer=(d)
+
+Q 23.)
+
+answer=(c)
+
+Q 24.)
+
+answer=(b)
+
+Q 25.)
+
+answer=(c)
+
+Q 26.)
+
+answer=(d)

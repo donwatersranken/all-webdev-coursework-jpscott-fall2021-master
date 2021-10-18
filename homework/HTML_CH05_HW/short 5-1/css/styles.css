@@ -1,0 +1,46 @@
+html{
+    background-color: yellow 
+}
+body{
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    border: 15px double blue;
+    padding: 20px;
+}
+main{
+    padding: 1px;
+}
+h1{
+    font-size: 150%;
+    color: blue;
+}
+h2{
+    font-size: 125%;
+}
+h3{
+    font-size: 115%;
+    padding: 1px;
+}
+footer{
+    text-align: center;
+    text-size-adjust: 90%;
+    font-weight: bold;
+    margin: auto;
+    padding: auto;
+}
+hr{
+   background: blue;
+    height: 3px;
+}
+.cite{
+    color: blue;
+    text-align: right;
+    padding: 0;
+}
+img{
+    float: left;
+    padding: 5px;
+    margin: 1px;
+}
+

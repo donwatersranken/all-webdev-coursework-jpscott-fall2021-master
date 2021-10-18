@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+    <title>Grade Converter</title>
+</head>
+<body>
+    <main>
+        <h1>Show letter grade</h1>
+        <script>
+            let numgrade;
+
+            while (true) {
+                numgrade = parseFloat(prompt("please enter a grade between 0 and 100:\r\n enter 999 to quit","100"));
+                
+                if (numgrade === 999) {
+                
+                 process.exit();
+                }
+
+                if ((isNaN(numgrade)) || (numgrade < 0) ||(numgrade > 100)) 
+                {
+                 alert("grade entered is not valid");  
+                }
+                else{
+
+            
+            switch (true) {
+                case (numgrade >= 88): document.write(`${numgrade} = A<br><br>`)
+                    break;
+
+                case (numgrade >= 80): document.write(`${numgrade} = B<br><br>`)
+                    break;
+
+                case (numgrade >= 68): document.write(`${numgrade} = C<br><br>`)
+                    break;
+
+                case (numgrade >= 60): document.write(`${numgrade} = D<br><br>`)
+                    break;
+            
+                default: document.write(`${numgrade} = F<br><br>`)
+                    break;
+            }
+        }
+    }
+        </script>
+    </main>
+</body>
+</html>
