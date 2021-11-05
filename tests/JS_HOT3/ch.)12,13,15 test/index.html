@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        body{
+            text-align: center;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="contanier">
+
+    <div class="item"><h1>ACME Moving company</h1></div>
+
+    <form action="">
+<div class="item">
+    <label for="first-name">first name</label> <input type="text" name="first-name" id="firstName"> <br><span id="fn"></span><br>
+</div>
+
+<div class="item">
+    <label for="last-name">last name</label> <input type="text" name="last-name" id="lastName">
+    <br><span id="ln"></span><br>
+</div>
+
+<div class="item">
+    <label for="address">address</label> <input type="text" name="address" id="address">
+    <br><span id="addressSpan"></span><br>
+</div>
+
+
+    <label for="city">city</label> <input type="text" name="city" id="city">
+    <br><span id="citySpan"></span><br>
+
+    <label for="state">state</label> 
+    <select name="state" id="state">
+        <option value="noState">-- Please Choose A State --</option>
+        <option value="missouri">missouri</option>
+    </select>    <br><span id="stateSpan"></span><br>
+
+    <label for="zipcode">zipcode</label> <input type="text" name="zipcode" id="zipcode"><br><span></span><br>
+
+    <label for="department">department</label>
+        <select name="department" id="department">
+            <option value="nodepartment">-- Please Choose A Dapartment --</option>
+            <option value="SomeDepartment">Some Department</option>
+        </select> <br><span></span><br>
+
+    <label for="salary">salary</label> <input type="text" name="salary" id="salary"><br><span></span><br>
+    </div>
+
+
+    <input type="button" name="submit" value="submit" id="submit">
+
+    <input type="button" name="reset" value="reset" id="reset"><br>
+
+    <input type="button" name="search" value="search" id="search">
+
+    <input type="button" name="totals" value="totals" id="totals">
+    </form>
+    <script src="javascript.js"></script>
+</body>
+</html>

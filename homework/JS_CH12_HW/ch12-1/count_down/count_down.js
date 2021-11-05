@@ -12,7 +12,7 @@ $( document ).ready( () => {
             messageLbl.text( "Please enter both a name and a date." );
             return;
         }  
-    
+      
         // make sure event date string has two slashes 
         const dateParts = eventDate.split("/");
         if (dateParts.length != 3) {   
