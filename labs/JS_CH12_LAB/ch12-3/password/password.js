@@ -6,9 +6,10 @@ let password;
 const getRandomNumber = () =>{
      
    for (let index = 0; index < passwordLength.length; index++) { 
-       password.push();
-       
+       passwordCharacter= Math.random()+[index]
+
    }
+
 }
 
 // const getRandomNumber = max => {
@@ -34,7 +35,7 @@ $(document).ready( () => {
     
     $("#clear").click( () => {
         $("#num").val( "" );
-        $("#password").val( "" );
+        $("#password").val( "sdafs" );
         $("#num").focus();
     }); // end click()
     

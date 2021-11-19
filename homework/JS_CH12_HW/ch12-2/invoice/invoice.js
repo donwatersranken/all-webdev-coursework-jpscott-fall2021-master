@@ -1,5 +1,9 @@
 "use strict";
 
+
+
+
+
 const calculateDiscount = (customer, subtotal) => {
     if (customer == "reg") {
         if (subtotal >= 100 && subtotal < 250) {
@@ -49,6 +53,16 @@ $( document ).ready( () => {
 
         // set focus on type drop-down when done  
         $("#type").focus();
+
+       let inputdate =  document.getElementById.val();
+
+       let dateParts = inputdate.split("/");
+       let day = dateParts[0];
+       let month = dateParts[1];
+       let year= dateParts[2];
+        console.log("day:"+day);
+        console.log("month:"+month);
+        console.log("year:"+year);
 
     });
     

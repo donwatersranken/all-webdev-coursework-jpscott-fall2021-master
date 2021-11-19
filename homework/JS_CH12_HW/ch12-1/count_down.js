@@ -5,7 +5,9 @@ $( document ).ready( () => {
     $("#countdown").click( () => {
         const eventName = $("#event").val();
         const eventDate = $("#date").val();  
-        const messageLbl = $("#message"); 
+        const messageLbl = $("#message");  
+        
+    
         // make sure user entered task and event date 
         if (eventName.length == 0 || eventDate.length == 0) {
             messageLbl.text( "Please enter both a name and a date." );
