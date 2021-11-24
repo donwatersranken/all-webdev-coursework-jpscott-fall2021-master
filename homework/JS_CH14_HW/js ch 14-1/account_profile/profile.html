@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Account Profile</title>
+    <link rel="stylesheet" type="text/css" href="account_profile.css">
+</head>
+
+<body>
+    <main class="profile">
+        <h1>My Account Profile</h1>
+        <p>Thank you for updating your profile! Please review the information below to make sure it is correct.</p>
+        <p id="profile">&nbsp;</p>
+
+        <input type="button" id="back" value="Back">
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script>
+        function getParameterByName(name, url = window.location.href) {
+                name = name.replace(/[\[\]]/g, '\\$&');
+                var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                    results = regex.exec(url);
+                if (!results) return null;
+                if (!results[2]) return '';
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }
+
+            let email= getParameterByName(`email`);
+            let phone= getParameterByName(`phone`);
+            let zip= getParameterByName(`zip`);
+            let dateOfBirth= getParameterByName(`dob`)
+        
+            document.getElementById("profile").innerHTML = " email: " + email + "<br>" + " phone: " + phone+ "<br>" + " zip: " + zip + "<br>" + " date of birth: " + dateOfBirth;
+
+
+        // display query string
+        $("#back").click( () => {
+            history.back();
+        });
+    </script>
+</body>
+</html>
